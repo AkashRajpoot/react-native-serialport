@@ -35,4 +35,5 @@ dependencies {
     implementation 'com.google.guava:guava:20.0'
     implementation 'com.facebook.react:react-native:+'
     implementation fileTree(dir: 'libs', include: ['usbserial-6.0.5-release.aar'])
+    implementation 'com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava'
 }
